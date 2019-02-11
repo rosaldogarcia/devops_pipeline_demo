@@ -1,5 +1,5 @@
 FROM servergurus/ubuntu-jdk8
-MAINTAINER Rosaldo Garcia <rggarcia@securitybank.com.ph>
+MAINTAINER Rosaldo Garcia <rosaldogarcia@gmail.com>
 
 # setup WildFly 
 COPY wildfly-8.2.0.Final /opt/wildfly
