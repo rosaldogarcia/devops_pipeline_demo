@@ -9,6 +9,7 @@ COPY wildfly-spring-boot-sample-1.0.0.war /opt/wildfly/standalone/deployments/
 
 RUN java -version
 
+RUN chmod +x /opt/wildfly/bin/standalone.sh
 
 # Expose the ports we're interested in
 EXPOSE 8080 9990 9090
