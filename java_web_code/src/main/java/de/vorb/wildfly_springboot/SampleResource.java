@@ -8,7 +8,7 @@ public class SampleResource {
 
     @RequestMapping("/")
     public String hello() {
-        return "DEVOPS demo";
+        return "Ross DEVOPS demo 04/01/2019";
     }
 
 }
